@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:keepScreenOn="true">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:context=".MainActivity">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"/>
+
+
+
+
+
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="跳转到安卓的辅助功能界面开启服务" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="196dp"
+            android:autoLink="web"
+            android:gravity="center"
+            android:text="注意:\n本程序仅支持微信版本:7.0.8 \n 安卓版本:7.0以上使用\n 由于大过年的抢不过亲朋好友的红包，于是用了半天时间这个自动抢红包的东西写出来了!\n仅供娱乐!请勿用于商业用途!! \n请打开无障碍服务然后加入微信的群里挂着就OJBK了\n By 七龙 Q1179163813"
+            android:textColor="#ccc"
+            android:textSize="12sp" />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
